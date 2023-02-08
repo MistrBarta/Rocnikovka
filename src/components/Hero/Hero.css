@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-content {
+    background-image: url('/src/components/Image/Img-hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 44vh;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.hero-content-text {
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 12.5em;
+}
+
+.title {
+    color: red;
+}
+
+.title-content {
+    color: White;
+}
