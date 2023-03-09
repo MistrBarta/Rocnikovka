@@ -4,7 +4,7 @@ import Home from './components/Home';
 import Skins from './components/Skins';
 import Support from './components/Support';
 import Contacts from './components/Contacts';
-import Singin from './components/Singin';
+import Login from './components/Login';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 
@@ -26,8 +26,10 @@ function App() {
         <Route path="/contacts" component={Contacts} exact>
           <Contacts />
         </Route>
-        <Route path="/singin" component={Singin} exact>
-          <Singin />
+        <Route path="/login" component={Login} exact>
+        <div className='page'>
+            <Login />
+          </div>
         </Route>
       </Switch>
     </Router>

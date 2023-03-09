@@ -23,8 +23,8 @@ function Navbar() {
             <Link to="/contacts" className="contacts">
                 <li>Contacts</li>
             </Link>
-            <Link to="/Singin" className="singin">
-                <li>Sing In</li>
+            <Link to="/login" className="login">
+                <li>Log In</li>
             </Link>
         </ul>
         <button className="mobile-menu-icon"

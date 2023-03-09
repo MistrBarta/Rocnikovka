@@ -25,7 +25,7 @@
     width: 75%;
 }
 
-.home, .skins, .support, .contacts, .singin {
+.home, .skins, .support, .contacts, .login {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -34,9 +34,10 @@
     cursor: pointer;
 }
 
-.singin {
+.login {
     border: 1px solid red;
     border-radius: 5px;
+    justify-content: center;
 }
 
 .mobile-menu-icon {
@@ -67,7 +68,7 @@
         height: 100%;
     }
 
-    .home, .skins, .support, .contacts, .singin {
+    .home, .skins, .support, .contacts, .login {
         color: white;
         text-align: center;
         padding: 32px;
@@ -75,7 +76,7 @@
         transition: all 0.5s ease;
     }
 
-    .singin {
+    .login {
         border: none;
     }
 
