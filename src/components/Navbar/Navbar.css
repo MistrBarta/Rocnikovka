@@ -25,7 +25,7 @@
     width: 75%;
 }
 
-.home, .skins, .support, .contacts, .login {
+.home, .skins, .support, .login {
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -60,7 +60,7 @@
         position: absolute;
         display: block;
         list-style: none;
-        background-color: black;
+        background-color: green;
         left: 0;
         top: 75px;
         transition: all 0.5s ease-out;
@@ -68,7 +68,7 @@
         height: 100%;
     }
 
-    .home, .skins, .support, .contacts, .login {
+    .home, .skins, .support, .login {
         color: white;
         text-align: center;
         padding: 32px;

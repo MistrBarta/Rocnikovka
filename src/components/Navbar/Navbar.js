@@ -20,9 +20,6 @@ function Navbar() {
             <Link to="/support" className="support">
                 <li>Support</li>
             </Link>
-            <Link to="/contacts" className="contacts">
-                <li>Contacts</li>
-            </Link>
             <Link to="/login" className="login">
                 <li>Log In</li>
             </Link>

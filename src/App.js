@@ -3,11 +3,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Home from './components/Home';
 import Skins from './components/Skins';
 import Support from './components/Support';
-import Contacts from './components/Contacts';
 import Login from './components/Login';
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
-import Content1 from './components/Home/Content1';
+
 
 function App() {
   return (
@@ -23,9 +21,6 @@ function App() {
         </Route>
         <Route path="/support" component={Support} exact>
           <Support />
-        </Route>
-        <Route path="/contacts" component={Contacts} exact>
-          <Contacts />
         </Route>
         <Route path="/login" component={Login} exact>
         <div className='page'>
