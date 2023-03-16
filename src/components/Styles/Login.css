@@ -43,14 +43,24 @@ input {
 
 .login-btn {
     width: 40%;
+    color: white;
     height: 3em;
-    background-color: red;
+    background-color: rgb(53, 53, 53);
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
     border-radius: 0.25em;
     cursor: pointer;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.login-btn:hover {
+    background-color: red;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 ::placeholder {

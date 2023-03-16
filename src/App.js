@@ -7,6 +7,7 @@ import Contacts from './components/Contacts';
 import Login from './components/Login';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import Content1 from './components/Home/Content1';
 
 function App() {
   return (
