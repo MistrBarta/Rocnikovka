@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgb(14, 14, 14);
+    width: 100%;
+    height: 180px;
+    border: 4px solid red;
+    border-radius: 1px;
+    text-align: center;
+    padding: 15px;
+}
+
+.site {
+    margin-top: 2em;
+}
+
+.media {
+    font-size: 24px;
+    color: white;
+    margin: 1em;
+    text-shadow: 2px 2px 23px #FF0000;
+}

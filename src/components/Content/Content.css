@@ -32,6 +32,7 @@ body {
     padding: 5px;
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 23px #FF0000;
 }
 
 .content-text {
@@ -40,6 +41,7 @@ body {
     height: 410px;
     font-size: 24px;
     color: white;
+    text-shadow: 2px 2px 23px #FF0000;
 }
 
 .br-content {

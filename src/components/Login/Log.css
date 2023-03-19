@@ -20,7 +20,6 @@
     height: 35vh;
     border: 1px solid red;
     border-radius: 5px;
-    position: relative;
     border-radius: 1em;
     box-shadow: 0 0.188em 1.550em red;
     display: flex;
@@ -36,7 +35,7 @@ input {
     border-radius: 0.25em;
     text-align: center;
     padding: 2em;
-    font-size: 0.75em;
+    font-size: 12px;
 }
 
 
