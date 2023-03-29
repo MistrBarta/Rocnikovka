@@ -6,8 +6,8 @@ function Log() {
       <div>
         <div className="cover">
             <h1>Login</h1>
-            <input type="text" placeholder="Username" />
-            <input type="password" placeholder="Password" />
+            <input className='login-page' type="text" placeholder="Username" />
+            <input className='login-page' type="password" placeholder="Password" />
             <div className="login-btn">Login</div>
         </div>
       </div>
