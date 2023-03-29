@@ -45,21 +45,6 @@
     box-shadow: 0 0 10px 4px red;
 }
 
-.login-btn {
-    width: 40%;
-    color: white;
-    height: 3em;
-    background-color: rgb(14, 14, 14);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-    border-radius: 0.25em;
-    cursor: pointer;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-
 .login-btn:hover {
     background-color: red;
     color: black;
