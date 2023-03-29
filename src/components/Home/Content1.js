@@ -25,7 +25,7 @@ function Content1() {
           </div>
 
           <div className='img-content2'>
-            <div className='img'>
+            <div className='img-skin'>
               <img src={img2} width="400px" height="200px" alt=''/>
             </div>
             <div className='text-img'>
