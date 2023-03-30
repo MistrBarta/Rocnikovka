@@ -6,11 +6,9 @@ function Log() {
       <div>
         <div className="cover">
             <h1>Login</h1>
-            <form className="contact-form" method="get">
             <input className='login-page' type="text" placeholder="Username" />
             <input className='login-page' type="password" placeholder="Password" />
             <input type="Submit" className="contact-form-btn" defaultValue="Send" />
-            </form>
         </div>
       </div>
     );

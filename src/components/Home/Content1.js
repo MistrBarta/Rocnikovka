@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Content1.css";
-import img1 from "./Images/image_1.png";
-import img2 from "./Images/image_2.png";
-import img3 from "./Images/image_3.png";
-import img4 from "./Images/image_4.png";
+import img1 from "./images/image_1.png";
+import img2 from "./images/image_2.png";
+import img3 from "./images/image_3.png";
+import img4 from "./images/image_4.png";
 
 function Content1() {
     return (
