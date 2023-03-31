@@ -12,10 +12,10 @@ function Log() {
       <div>
         <div className="cover">
             <h1>Login</h1>
-            <form className="contact-form-login" method="get">
+            <form className="contact-form" method="get">
             <input className='login-page' type="text" placeholder="Username" />
             <input className='login-page' type="password" placeholder="Password" />
-            <input type="Submit" onClick={notification} className="contact-form-btn-login" defaultValue="Send" />
+            <input type="Submit" className="contact-form-btn" defaultValue="Send" />
             </form>
         </div>
       </div>
