@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .page {
     height: 100vh;
     width: 100%;
@@ -17,7 +11,7 @@
 .cover {
     background-color: rgb(14, 14, 14);
     width: 40vh;
-    height: 35vh;
+    height: 38vh;
     border: 1px solid red;
     border-radius: 5px;
     border-radius: 1em;
@@ -28,10 +22,22 @@
     justify-content: space-around;
 }
 
+.contact-form-login {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 10px;
+    overflow: hidden;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    border-radius: 5px;
+    display: block;
+    box-sizing: border-box;
+}
+
 .login-page {
     border: none;
     background-color: rgb(100, 100, 100);
-    width: 50%;
+    width: 100%;
     border-radius: 0.25em;
     text-align: center;
     padding: 2em;
@@ -39,6 +45,19 @@
     transform: 0.5s;
     border: none;
     outline: none;
+    margin-top: 1.5em;
+}
+
+.contact-form-btn-login{
+    float: right;
+    cursor: pointer;
+    border: 0;
+    background: red;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 20px;
+    transform: 0.5s;
+    margin-top: 1em;
 }
 
 .login-page:focus{
@@ -56,5 +75,7 @@
 }
 
 h1 {
-    color: red;
+    margin-top: 1em;
+    color: white;
+    text-shadow: 2px 2px 23px #FF0000;
 }
