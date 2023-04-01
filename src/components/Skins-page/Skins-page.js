@@ -12,8 +12,8 @@ function Skin() {
         <Knife />
         <Glove />
         <AWP />
-        <AK />
         <M4 />
+        <AK />
       </div>
     );
   }

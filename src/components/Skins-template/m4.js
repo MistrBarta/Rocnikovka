@@ -1,10 +1,13 @@
 import React from 'react';
 import "../Skins-page/Skins-page.css";
+import img1 from "./Images/img-m4-1.png";
+import img2 from "./Images/img-m4-2.png";
+import img3 from "./Images/img-m4-3.png";
+
 
 function m4() {
     return (
       <div>
-        <div className="page-skins">
         {/*Line with skin name*/}
             <div className="page-line">
                 <div className="line-1" />
@@ -16,51 +19,50 @@ function m4() {
                 {/*Box witch skin*/}
                 <div className="skin-1">
                     <div className="img-skin">
-                        <img src="image_1.png" width="400px" height="200px" alt="" />
+                        <img src={img3} width="400px" height="197px" alt="" />
                     </div>
                     <div className="name-skin">
-                        <p>Name</p>
+                        <p>M4A4 | Poseidon</p>
                     </div>
                     <div className="condition-skin">
-                        <p>condition</p>
+                        <p>Minimal Wear</p>
                     </div>
                     <div className="price-skin">
-                        <p>price</p>
+                        <p>€ 1 645.37</p>
                     </div>
                 </div>
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
-                        <img src="image_1.png" width="400px" height="200px" alt="" />
+                        <img src={img2} width="400px" height="197px" alt="" />
                     </div>
                     <div className="name-skin">
-                        <p>Name</p>
+                        <p>M4A4 | Asiimov</p>
                     </div>
                     <div className="condition-skin">
-                        <p>condition</p>
+                        <p>Field-Tested</p>
                     </div>
                     <div className="price-skin">
-                        <p>price</p>
+                        <p>€ 638.49</p>
                     </div>
                 </div>
                 {/*Box witch skin*/}
                 <div className="skin-3">
                     <div className="img-skin">
-                        <img src="image_1.png" width="400px" height="200px" alt="" />
+                        <img src={img1} width="400px" height="197px" alt="" />
                     </div>
                     <div className="name-skin">
-                        <p>Name</p>
+                        <p>M4A4 | The Emperor</p>
                     </div>
                     <div className="condition-skin">
-                        <p>condition</p>
+                        <p>Factory New</p>
                     </div>
                     <div className="price-skin">
-                        <p>price</p>
+                        <p>€ 2 879.82</p>
                     </div>
                 </div>
             </div>
             
-        </div>
       </div>
     );
   }
