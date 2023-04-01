@@ -3,7 +3,7 @@ body{
 }
 
 .page-skins{
-    height: 100vh;
+    height: 50vh;
     width: 100%;
 }
 
@@ -95,6 +95,7 @@ body{
     width: 100%;
     height: 30px;
     display: flex;
+    margin-top: 8em;
 }
 
 .line-1{
