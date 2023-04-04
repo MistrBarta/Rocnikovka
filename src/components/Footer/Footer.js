@@ -12,6 +12,7 @@ function Footer() {
           <div className="container">
             <div className="content has-text-center">
               <div className="site">
+                {/*link for socialmedia*/}
                 <a target="_blank" href="https://www.facebook.com/adam.barta.338/">
                   <img src={img1} width="20px" alt='' />
                 </a>
