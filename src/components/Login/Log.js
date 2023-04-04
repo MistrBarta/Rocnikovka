@@ -2,6 +2,7 @@ import React from 'react';
 import "./Log.css";
 
 function Log() {
+  {/*function for a notification*/}
   let data="login";
   function notification() {
     data="Login Successful";
@@ -11,10 +12,11 @@ function Log() {
     return (
       <div>
         <div className="cover">
-            <h1>Login</h1>
+            <h1 className='tittle-login'>Login</h1>
             <form className="contact-form" method="get">
             <input className='login-page' type="text" placeholder="Username" />
             <input className='login-page' type="password" placeholder="Password" />
+            {/*Submit and it will triggers a notification*/}
             <input type="Submit" onClick={notification} className="contact-form-btn" defaultValue="Send" />
             </form>
         </div>

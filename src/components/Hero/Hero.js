@@ -4,6 +4,7 @@ import "./Hero.css";
 function Hero() {
     return (
         <div className="hero-content">
+            {/*Background img*/}
             <div className="hero-content-text">
                 <div className="title">
                     <h1>MARKET PLACE</h1>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navbar.css"
 
 function Navbar() {
-
+    {/*variable for navbar button*/}
     const [ isMobile, setIsMobile] = useState(false);
 
     return (
@@ -24,6 +24,7 @@ function Navbar() {
                 <li>Log In</li>
             </Link>
         </ul>
+        {/*Fuction onClick on button*/}
         <button className="mobile-menu-icon"
         onClick={() => setIsMobile(!isMobile)}>
             {isMobile ? (<i className="fas fa-times"></i>) : (<i className="fas fa-bars"></i>)}

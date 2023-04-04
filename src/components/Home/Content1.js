@@ -14,6 +14,7 @@ function Content1() {
             <p>You can check out some of the most expensive skins</p>
           </div>
         </div>
+          {/*Content of one img in homepage*/}
           <div className='img-content1'>
             <div className='img'>
               <img src={img1} width="400px" height="200px" alt=''/>
@@ -23,7 +24,7 @@ function Content1() {
               <p>Price: 19 094.45€ </p>
             </div>
           </div>
-
+          {/*Content of one img in homepage*/}
           <div className='img-content2'>
             <div className='img-skin'>
               <img src={img2} width="400px" height="200px" alt=''/>
@@ -33,7 +34,7 @@ function Content1() {
               <p>Price:  18 518.12€</p>
             </div>
           </div>
-
+          {/*Content of one img in homepage*/}
           <div className='img-content3'>
             <div className='img'>
               <img src={img3} width="400px" height="200px" alt=''/>
@@ -43,7 +44,7 @@ function Content1() {
               <p>Price:  17 544.20€</p>
             </div>
           </div>
-
+          {/*Content of one img in homepage*/}
           <div className='img-content4'>
             <div className='img'>
               <img src={img4} width="400px" height="200px" alt=''/>
