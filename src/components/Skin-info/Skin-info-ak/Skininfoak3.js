@@ -8,7 +8,7 @@ function Skininfoak3() {
         <div className='Skins-info-content-page'>
           <div className='Skin-info-content'>
             <div className='Skin-info-img'>
-              <img src={img} width="700px" height="396px" alt=" " />
+              <img src={img} className='img-skin-info' alt=" " />
             </div>
             <div className='Skin-info-text'>
               <div className='tittle-info'>

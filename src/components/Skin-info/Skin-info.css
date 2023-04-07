@@ -6,6 +6,11 @@
     justify-content: center;
 }
 
+.img-skin-info{
+    width: 700px;
+    height: 400px;
+}
+
 .Skin-info-content {
     text-shadow: 2px 2px 23px #FF0000;
     width: 708px;
@@ -32,4 +37,35 @@
     color: white;
     padding: 10px;
     font-size: 24px;
+}
+
+@media  screen and (max-width: 710px) {
+    .img-skin-info{
+        width: 542px;
+        height: 300px;
+    }
+
+    .Skin-info-content{
+        width: 550px;
+    }
+}
+
+@media  screen and (max-width: 550px) {
+    .img-skin-info{
+        width: 392px;
+        height: 200px;
+    }
+
+    .Skin-info-content{
+        width: 400px;
+    }
+
+    .tittle-info{
+        font-size: 24px;
+    }
+
+    .text-info{
+        font-size: 12px;
+    }
+
 }
