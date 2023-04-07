@@ -20,7 +20,7 @@ function Knife() {
                 <div className="skin-1">
                     <div className="img-skin">
                         <Link to="Skininfoknife1">
-                            <img src={img3} width="400px" height="197px" alt="" />
+                            <img src={img1} width="400px" height="197px" alt="" />
                         </Link>
                     </div>
                     <div className="name-skin">
@@ -54,7 +54,7 @@ function Knife() {
                 <div className="skin-3">
                     <div className="img-skin">
                         <Link to="Skininfoknife3">
-                            <img src={img1} width="400px" height="197px" alt="" />
+                            <img src={img3} width="400px" height="197px" alt="" />
                         </Link>
                     </div>
                     <div className="name-skin">

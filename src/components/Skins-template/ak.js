@@ -20,7 +20,7 @@ function ak() {
                 <div className="skin-1">
                     <div className="img-skin">
                         <Link to="Skininfoak1">
-                            <img src={img3} width="400px" height="197px" alt="" />
+                            <img src={img1} width="400px" height="197px" alt="" />
                         </Link>
                     </div>
                     <div className="name-skin">
@@ -37,7 +37,7 @@ function ak() {
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
-                        <Link to="Skininfoak3">
+                        <Link to="Skininfoak2">
                             <img src={img2} width="400px" height="197px" alt="" />
                         </Link>    
                     </div>
@@ -55,7 +55,7 @@ function ak() {
                 <div className="skin-3">
                     <div className="img-skin">
                         <Link to="Skininfoak3">
-                            <img src={img1} width="400px" height="197px" alt="" />
+                            <img src={img3} width="400px" height="197px" alt="" />
                         </Link>
                     </div>
                     <div className="name-skin">
