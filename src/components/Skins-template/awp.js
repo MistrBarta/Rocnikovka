@@ -3,7 +3,7 @@ import "../Skins-page/Skins-page.css";
 import img1 from "./Images/img-awp-1.png";
 import img2 from "./Images/img-awp-2.png";
 import img3 from "./Images/img-awp-3.png";
-
+import {Link} from 'react-router-dom';
 
 function awp() {
     return (
@@ -19,7 +19,9 @@ function awp() {
                 {/*Box witch skin*/}
                 <div className="skin-1">
                     <div className="img-skin">
-                        <img src={img1} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoawp1">
+                            <img src={img1} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>AWP | Medusa</p>
@@ -34,7 +36,9 @@ function awp() {
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
-                        <img src={img2} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoawp2">
+                            <img src={img2} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>AWP | Dragon Lore</p>
@@ -49,7 +53,9 @@ function awp() {
                 {/*Box witch skin*/}
                 <div className="skin-3">
                     <div className="img-skin">
-                        <img src={img3} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoawp3">
+                            <img src={img3} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>AWP | The Prince</p>

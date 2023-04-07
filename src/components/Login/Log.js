@@ -2,7 +2,7 @@ import React from 'react';
 import "./Log.css";
 
 function Log() {
-  {/*function for a notification*/}
+  /*function for a notification*/
   let data="login";
   function notification() {
     data="Login Successful";

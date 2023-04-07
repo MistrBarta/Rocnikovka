@@ -13,16 +13,16 @@ function Footer() {
             <div className="content has-text-center">
               <div className="site">
                 {/*link for socialmedia*/}
-                <a target="_blank" href="https://www.facebook.com/adam.barta.338/">
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/adam.barta.338/">
                   <img src={img1} width="20px" alt='' />
                 </a>
-                <a target="_blank" href="https://www.instagram.com/barta_adam_/">
+                <a target="_blank" rel="noopener" href="https://www.instagram.com/barta_adam_/">
                   <img src={img2} width="20px" alt='' />
                 </a>
-                <a target="_blank" href="https://steamcommunity.com/profiles/76561198377122431/">
+                <a target="_blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198377122431/">
                   <img src={img3} width="20px" alt='' />
                 </a>
-                <a target="_blank" href="https://www.twitch.tv/b4rt1k1">
+                <a target="_blank" rel="noopener" href="https://www.twitch.tv/b4rt1k1">
                   <img src={img4} width="30px" alt='' />
                 </a>
               </div>

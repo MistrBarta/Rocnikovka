@@ -3,7 +3,7 @@ import "../Skins-page/Skins-page.css";
 import img1 from "./Images/img-m4-1.png";
 import img2 from "./Images/img-m4-2.png";
 import img3 from "./Images/img-m4-3.png";
-
+import {Link} from 'react-router-dom';
 
 function m4() {
     return (
@@ -19,7 +19,9 @@ function m4() {
                 {/*Box witch skin*/}
                 <div className="skin-1">
                     <div className="img-skin">
-                        <img src={img3} width="400px" height="197px" alt="" />
+                        <Link to="Skininfom4a41">
+                            <img src={img3} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>M4A4 | Poseidon</p>
@@ -34,7 +36,9 @@ function m4() {
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
-                        <img src={img2} width="400px" height="197px" alt="" />
+                        <Link to="Skininfom4a42">
+                            <img src={img2} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>M4A4 | Asiimov</p>
@@ -49,7 +53,9 @@ function m4() {
                 {/*Box witch skin*/}
                 <div className="skin-3">
                     <div className="img-skin">
-                        <img src={img1} width="400px" height="197px" alt="" />
+                        <Link to="Skininfom4a43">
+                            <img src={img1} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>M4A4 | The Emperor</p>

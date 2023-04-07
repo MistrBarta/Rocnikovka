@@ -3,7 +3,7 @@ import "../Skins-page/Skins-page.css";
 import img1 from "./Images/img-ak-1.png";
 import img2 from "./Images/img-ak-2.png";
 import img3 from "./Images/img-ak-3.png";
-
+import {Link} from 'react-router-dom';
 
 function ak() {
     return (
@@ -19,7 +19,9 @@ function ak() {
                 {/*Box witch skin*/}
                 <div className="skin-1">
                     <div className="img-skin">
-                        <img src={img3} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoak1">
+                            <img src={img3} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>AK-47 | X-Ray</p>
@@ -35,7 +37,9 @@ function ak() {
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
-                        <img src={img2} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoak3">
+                            <img src={img2} width="400px" height="197px" alt="" />
+                        </Link>    
                     </div>
                     <div className="name-skin">
                         <p>AK-47 | Fire Serpent</p>
@@ -50,7 +54,9 @@ function ak() {
                 {/*Box witch skin*/}
                 <div className="skin-3">
                     <div className="img-skin">
-                        <img src={img1} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoak3">
+                            <img src={img1} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>AK-47 | Asiimov</p>

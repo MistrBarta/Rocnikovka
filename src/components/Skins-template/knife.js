@@ -3,6 +3,7 @@ import "../Skins-page/Skins-page.css";
 import img1 from "./Images/img-knife-1.png";
 import img2 from "./Images/img-knife-2.png";
 import img3 from "./Images/img-knife-3.png";
+import {Link} from 'react-router-dom';
 
 function Knife() {
     return (
@@ -18,7 +19,9 @@ function Knife() {
                 {/*Box witch skin*/}
                 <div className="skin-1">
                     <div className="img-skin">
-                        <img src={img3} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoknife1">
+                            <img src={img3} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>Butterfly Knife | Doppler Ruby </p>
@@ -33,7 +36,9 @@ function Knife() {
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
-                        <img src={img2} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoknife2">
+                            <img src={img2} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>Talon Knife | Doppler Sapphire</p>
@@ -48,7 +53,9 @@ function Knife() {
                 {/*Box witch skin*/}
                 <div className="skin-3">
                     <div className="img-skin">
-                        <img src={img1} width="400px" height="197px" alt="" />
+                        <Link to="Skininfoknife3">
+                            <img src={img1} width="400px" height="197px" alt="" />
+                        </Link>
                     </div>
                     <div className="name-skin">
                         <p>Butterfly Knife | Lore</p>
