@@ -31,6 +31,7 @@ function ak() {
                         <p>€ 1 561.25</p>
                     </div>
                 </div>
+                
                 {/*Box witch skin*/}
                 <div className="skin-2">
                     <div className="img-skin">
