@@ -13,20 +13,25 @@ function App() {
       <Navbar />
 
       <Switch>
+
         <Route path="/" component={Home} exact>
           <Home />
         </Route>
+
         <Route path="/skins" component={Skins} exact>
           <Skins />
         </Route>
+
         <Route path="/support" component={Support} exact>
           <Support />
         </Route>
+
         <Route path="/login" component={Login} exact>
-        <div className='page'>
+          <div className='page'>
             <Login />
           </div>
         </Route>
+
       </Switch>
     </Router>
   );
