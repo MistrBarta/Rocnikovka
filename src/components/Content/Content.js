@@ -10,7 +10,7 @@ function Content() {
           </div>
           <div className='content-text'>
             <div className='br-content'>
-              <p>My website work on actual prices from BUFF and all Float website.</p>
+              <p>Our website work on actual prices from BUFF and all Float website.</p>
               <p>Stickers are also taken into account in the prices, it count 75% of their actual value.</p>
             </div>
             <div className='br-content2'>
