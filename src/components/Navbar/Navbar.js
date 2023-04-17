@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css"
 
 function Navbar() {
     /*variable for navbar button*/
-    const [ isMobile, setIsMobile] = useState(false);
+    const [ openned, setOpenned] = useState(false);
 
     return (
       <nav className="navbar">
         <h3 className="logo">MARKET PLACE</h3>
-        <ul className={isMobile? "nav-links-mobile": "nav-links"}
-        onClick={() => setIsMobile(false)}>
+        <ul className={openned? "nav-links-mobile": "nav-links"}>
             <Link to="/" className="home">
                 <li>Home</li>
             </Link>
@@ -26,12 +26,11 @@ function Navbar() {
         </ul>
         {/*Fuction onClick on button*/}
         <button className="mobile-menu-icon"
-        onClick={() => setIsMobile(!isMobile)}>
-            {isMobile ? (<i className="fas fa-times"></i>) : (<i className="fas fa-bars"></i>)}
+        onClick={() => setOpenned(!openned)}>
+            {openned? <FaTimes/> : <FaBars/>}
         </button>
       </nav>
     );
   }
   
   export default Navbar;
-
