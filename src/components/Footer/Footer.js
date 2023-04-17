@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Footer.css";
+import { FaFacebook, FaInstagram, FaSteam, FaTwitch } from "react-icons/fa";
 import img1 from "./Image/facebook-logo.png";
 import img2 from "./Image/instagram-logo.png";
 import img3 from "./Image/steam-logo.png";
@@ -14,16 +15,22 @@ function Footer() {
               <div className="site">
                 {/*link for socialmedia*/}
                 <a target="blank" rel="noopener" href="https://www.facebook.com/adam.barta.338/">
-                  <img src={img1} width="20px" alt='' />
+                  <FaFacebook size="20px" color='red'/>
                 </a>
                 <a target="blank" rel="noopener" href="https://www.instagram.com/barta_adam_/">
-                  <img src={img2} width="20px" alt='' /> 
+                  <div className='social-media'>
+                    <FaInstagram size="20px" color='red'/>
+                  </div>
                 </a>
                 <a target="blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198377122431/">
-                  <img src={img3} width="20px" alt='' />
+                  <div className='social-media'>
+                    <FaSteam size="20px" color='red'/>
+                  </div>
                 </a>
                 <a target="blank" rel="noopener" href="https://www.twitch.tv/b4rt1k1">
-                  <img src={img4} width="30px" alt='' />
+                  <div className='social-media'>
+                    <FaTwitch size="20px" color='red'/>
+                  </div>
                 </a>
               </div>
             </div>

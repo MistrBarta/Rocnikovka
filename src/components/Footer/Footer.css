@@ -9,7 +9,14 @@
 }
 
 .site {
+    display: flex;
+    justify-content: center;
     margin-top: 2em;
+}
+
+.social-media {
+    display: flex;
+    margin-left: 10px;
 }
 
 .media {
