@@ -17,7 +17,7 @@ function Footer() {
                   <img src={img1} width="20px" alt='' />
                 </a>
                 <a target="blank" rel="noopener" href="https://www.instagram.com/barta_adam_/">
-                  <img src={img2} width="20px" alt='' />
+                  <img src={img2} width="20px" alt='' /> 
                 </a>
                 <a target="blank" rel="noopener" href="https://steamcommunity.com/profiles/76561198377122431/">
                   <img src={img3} width="20px" alt='' />
@@ -29,8 +29,8 @@ function Footer() {
             </div>
           </div>
           <div className="media">
-            <p>You can check out my social media</p>
-            <p>You can contact me there as well</p>
+            <p>You can check out our social media</p>
+            <p>You can contact us there as well</p>
           </div>
         </footer>
       </div>
