@@ -17,7 +17,7 @@ function Log() {
             <input className='login-page' type="text" placeholder="Username" />
             <input className='login-page' type="password" placeholder="Password" />
             {/*Submit and it will triggers a notification*/}
-            <input type="Submit" onClick={notification} className="contact-form-btn" defaultValue="Send" />
+            <input type="Submit" onClick={notification} className="contact-form-btn-login" defaultValue="Send" />
             </form>
         </div>
       </div>
