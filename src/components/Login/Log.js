@@ -13,7 +13,7 @@ function Log() {
       <div>
         <div className="cover">
             <h1 className='tittle-login'>Login</h1>
-            <form className="contact-form" method="get">
+            <form className="contact-form-login" method="get">
             <input className='login-page' type="text" placeholder="Username" />
             <input className='login-page' type="password" placeholder="Password" />
             {/*Submit and it will triggers a notification*/}
