@@ -1,10 +1,6 @@
 import React from 'react';
 import "./Footer.css";
 import { FaFacebook, FaInstagram, FaSteam, FaTwitch } from "react-icons/fa";
-import img1 from "./Image/facebook-logo.png";
-import img2 from "./Image/instagram-logo.png";
-import img3 from "./Image/steam-logo.png";
-import img4 from "./Image/twitch-logo.png";
 
 function Footer() {
     return (
