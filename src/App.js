@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import Home from './components/Home';
 import Skins from './components/Skins';
 import Support from './components/Support';
@@ -26,9 +26,9 @@ import Skininfoak3 from './components/Skin-info/Skin-info-ak/Skininfoak3';
 
 function App() {
   return (
-    <Router>
+    <>
       <Navbar />
-      <Switch>
+      <Routes>
         <Route path="/" component={Home} exact> <Home /> </Route>
         <Route path="/skins" component={Skins} exact> <Skins /> </Route>
         <Route path="/support" component={Support} exact> <Support /> </Route>
@@ -48,9 +48,9 @@ function App() {
         <Route path="/Skininfom4a41" component={Skininfom4a41} exact> <Skininfom4a41/> </Route>
         <Route path="/Skininfom4a42" component={Skininfom4a42} exact> <Skininfom4a42/> </Route>
         <Route path="/Skininfom4a43" component={Skininfom4a43} exact> <Skininfom4a43/> </Route>
-      </Switch>
+      </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
