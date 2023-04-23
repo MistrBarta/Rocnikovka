@@ -137,7 +137,9 @@ body{
     }
 
     .skins-a {
+        display: flex;
         flex-direction: row;
+        height: 60vh;
     }
 
     .skin-1 {
